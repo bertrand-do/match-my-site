@@ -1,0 +1,11 @@
+{
+  "name": "match-my-site",
+  "version": "1.0.0",
+  "description": "Read any website and return its brand kit: fonts, colours, logo, spacing.",
+  "type": "module",
+  "license": "MIT",
+  "bin": { "brand-kit": "scripts/brand-kit.mjs" },
+  "scripts": { "brand-kit": "node scripts/brand-kit.mjs" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "puppeteer-core": "^24.0.0" }
+}
