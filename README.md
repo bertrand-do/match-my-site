@@ -8,10 +8,12 @@ It opens the page in your own Google Chrome (always headless, no window), reads 
 - `brand.md`: a readable kit (colours with hex and role, fonts with fallbacks, logo file and URL, header style, notes)
 - `preview.html`: one self-contained page with swatches, type samples and the logo, styled with the extracted tokens
 
+![Example preview page built from a site's brand kit](docs/preview.png)
+
 ## Install
 
 ```
-cp -R match-my-site ~/.claude/skills/match-my-site
+git clone https://github.com/bertrand-do/match-my-site ~/.claude/skills/match-my-site
 cd ~/.claude/skills/match-my-site
 npm install
 ```
